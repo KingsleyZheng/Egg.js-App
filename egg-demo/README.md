@@ -1,6 +1,6 @@
-# miao
+# demo
 
-back-end api
+
 
 ## QuickStart
 
@@ -31,8 +31,3 @@ $ npm stop
 
 
 [egg]: https://eggjs.org
-
-## 目录结构
-app/migration 存放数据库迁移的文件夹  
-app/seeder 存放如何生成假数据  
-app/model 表中字段如何映射到JS对象的逻辑  

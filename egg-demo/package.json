@@ -1,17 +1,14 @@
 {
-  "name": "miao",
+  "name": "demo",
   "version": "1.0.0",
-  "description": "back-end api",
+  "description": "",
   "private": true,
   "egg": {
     "declarations": true
   },
   "dependencies": {
     "egg": "^2.15.1",
-    "egg-scripts": "^2.11.0",
-    "egg-sequelize": "^5.2.1",
-    "mysql2": "^2.1.0",
-    "sequelize-cli": "^5.5.1"
+    "egg-scripts": "^2.11.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -26,8 +23,8 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-miao",
-    "stop": "egg-scripts stop --title=egg-server-miao",
+    "start": "egg-scripts start --daemon --title=egg-server-demo",
+    "stop": "egg-scripts stop --title=egg-server-demo",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
@@ -35,10 +32,7 @@
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
-    "autod": "autod",
-    "m:new": "sequelize migration:create",
-    "m:up": "sequelize db:migrate",
-    "m:down": "sequelize db:migrate:undo"
+    "autod": "autod"
   },
   "ci": {
     "version": "10"
