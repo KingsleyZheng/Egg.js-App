@@ -1,12 +1,13 @@
-# logs/
+logs/*
 # npm-debug.log
 # yarn-error.log
-node_modules/
+node_modules/*
 # package-lock.json
 # yarn.lock
 # coverage/
 # .idea/
-# run/
+run/*
+demo/*
 # .DS_Store
 # *.sw*
 # *.un~

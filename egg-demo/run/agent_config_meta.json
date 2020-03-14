@@ -1,20 +1,11 @@
 {
   "keys": "E:\\github\\Egg.js-App\\egg-demo\\config\\config.default.js",
   "middleware": "E:\\github\\Egg.js-App\\egg-demo\\config\\config.default.js",
-  "session": {
-    "maxAge": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-session\\config\\config.default.js"
-  },
   "security": {
-    "domainWhiteList": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "enable": "E:\\github\\Egg.js-App\\egg-demo\\config\\config.default.js",
+      "ignoreJSON": "E:\\github\\Egg.js-App\\egg-demo\\config\\config.default.js",
       "type": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
       "useSession": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
       "cookieName": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
       "sessionName": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
@@ -23,6 +14,9 @@
       "queryName": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
       "refererWhiteList": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
     },
+    "domainWhiteList": "E:\\github\\Egg.js-App\\egg-demo\\config\\config.default.js",
+    "protocolWhiteList": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
       "enable": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
       "value": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
@@ -60,6 +54,16 @@
       "ipBlackList": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
       "checkAddress": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
     }
+  },
+  "cors": {
+    "credentials": "E:\\github\\Egg.js-App\\egg-demo\\config\\config.default.js",
+    "allowMethods": "E:\\github\\Egg.js-App\\egg-demo\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
     "shtml": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
@@ -164,6 +168,7 @@
     },
     "dependencies": {
       "egg": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
