@@ -609,3 +609,33 @@
 2020-03-16 11:09:13,489 INFO 14908 [egg-watcher:application] watcher start success
 2020-03-16 11:09:13,502 INFO 14908 [egg-mysql] instance[0] status OK, rds currentTime: Mon Mar 16 2020 11:09:13 GMT+0800 (GMT+08:00)
 2020-03-16 11:09:13,528 INFO 14908 [egg:core] dump config after ready, 24ms
+2020-03-16 11:49:38,129 INFO 12296 [egg:logger] init all loggers with options: {"dir":"E:\\github\\Egg.js-App\\egg-demo\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-16 11:49:38,205 INFO 12296 [egg-multipart] stream mode enable
+2020-03-16 11:49:38,205 INFO 12296 [egg-mysql] connecting root@localhost:3306/react-diary
+2020-03-16 11:49:39,501 INFO 12296 [egg-static] starting static serve /public/ -> E:\github\Egg.js-App\egg-demo\app\public
+2020-03-16 11:49:39,509 INFO 12296 [egg-security] use methodnoallow middleware
+2020-03-16 11:49:39,514 INFO 12296 [egg-security] use noopen middleware
+2020-03-16 11:49:39,519 INFO 12296 [egg-security] use nosniff middleware
+2020-03-16 11:49:39,526 INFO 12296 [egg-security] use xssProtection middleware
+2020-03-16 11:49:39,532 INFO 12296 [egg-security] use xframe middleware
+2020-03-16 11:49:39,536 INFO 12296 [egg-security] use dta middleware
+2020-03-16 11:49:39,536 INFO 12296 [egg-security] compose 6 middlewares into one security middleware
+2020-03-16 11:49:39,565 INFO 12296 [egg:core] dump config after load, 19ms
+2020-03-16 11:49:39,588 INFO 12296 [egg-watcher:application] watcher start success
+2020-03-16 11:49:39,593 INFO 12296 [egg-mysql] instance[0] status OK, rds currentTime: Mon Mar 16 2020 11:49:39 GMT+0800 (GMT+08:00)
+2020-03-16 11:49:39,618 INFO 12296 [egg:core] dump config after ready, 21ms
+2020-03-16 11:49:41,068 INFO 1728 [egg:logger] init all loggers with options: {"dir":"E:\\github\\Egg.js-App\\egg-demo\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-16 11:49:41,098 INFO 1728 [egg-multipart] stream mode enable
+2020-03-16 11:49:41,099 INFO 1728 [egg-mysql] connecting root@localhost:3306/react-diary
+2020-03-16 11:49:41,288 INFO 1728 [egg-static] starting static serve /public/ -> E:\github\Egg.js-App\egg-demo\app\public
+2020-03-16 11:49:41,290 INFO 1728 [egg-security] use methodnoallow middleware
+2020-03-16 11:49:41,291 INFO 1728 [egg-security] use noopen middleware
+2020-03-16 11:49:41,300 INFO 1728 [egg-security] use nosniff middleware
+2020-03-16 11:49:41,301 INFO 1728 [egg-security] use xssProtection middleware
+2020-03-16 11:49:41,302 INFO 1728 [egg-security] use xframe middleware
+2020-03-16 11:49:41,302 INFO 1728 [egg-security] use dta middleware
+2020-03-16 11:49:41,302 INFO 1728 [egg-security] compose 6 middlewares into one security middleware
+2020-03-16 11:49:41,332 INFO 1728 [egg:core] dump config after load, 26ms
+2020-03-16 11:49:41,359 INFO 1728 [egg-watcher:application] watcher start success
+2020-03-16 11:49:41,366 INFO 1728 [egg-mysql] instance[0] status OK, rds currentTime: Mon Mar 16 2020 11:49:41 GMT+0800 (GMT+08:00)
+2020-03-16 11:49:41,387 INFO 1728 [egg:core] dump config after ready, 20ms

@@ -257,3 +257,19 @@
 2020-03-16 11:40:03,848 INFO 15976 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\github\\Egg.js-App\\egg-demo\\app\\public","stat":{"dev":3659066362,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":562949954369637,"size":0,"atimeMs":1584330003847.4033,"mtimeMs":1584173528931.5312,"ctimeMs":1584173528931.5312,"birthtimeMs":1584173528931.5312,"atime":"2020-03-16T03:40:03.847Z","mtime":"2020-03-14T08:12:08.932Z","ctime":"2020-03-14T08:12:08.932Z","birthtime":"2020-03-14T08:12:08.932Z"},"remove":false,"isDirectory":true,"isFile":false}
 2020-03-16 11:49:28,528 INFO 15976 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\github\\Egg.js-App\\egg-demo\\config\\config.default.js","stat":{"dev":3659066362,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":562949954358872,"size":1169,"atimeMs":1584330568526.5754,"mtimeMs":1584325279266.8035,"ctimeMs":1584325279266.8035,"birthtimeMs":1584172412389.8384,"atime":"2020-03-16T03:49:28.527Z","mtime":"2020-03-16T02:21:19.267Z","ctime":"2020-03-16T02:21:19.267Z","birthtime":"2020-03-14T07:53:32.390Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-03-16 11:49:28,591 INFO 15976 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\github\\Egg.js-App\\egg-demo\\config\\plugin.js","stat":{"dev":3659066362,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":562949954358873,"size":271,"atimeMs":1584330568591.1284,"mtimeMs":1584324628012.774,"ctimeMs":1584324628012.774,"birthtimeMs":1584172412419.8386,"atime":"2020-03-16T03:49:28.591Z","mtime":"2020-03-16T02:10:28.013Z","ctime":"2020-03-16T02:10:28.013Z","birthtime":"2020-03-14T07:53:32.420Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-16 11:49:28,793 WARN 15976 [agent:development] reload worker because E:\github\Egg.js-App\egg-demo\config\plugin.js change
+2020-03-16 11:49:39,211 WARN 15976 [agent:development] reload worker because E:\github\Egg.js-App\egg-demo\app\service\user.js change
+2020-03-16 11:49:39,009 INFO 15976 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\github\\Egg.js-App\\egg-demo\\app\\service\\user.js","stat":{"dev":3659066362,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":844424931086815,"size":250,"atimeMs":1584330579008.494,"mtimeMs":1584175873356.6304,"ctimeMs":1584175873356.6304,"birthtimeMs":1584175710530.8228,"atime":"2020-03-16T03:49:39.008Z","mtime":"2020-03-14T08:51:13.357Z","ctime":"2020-03-14T08:51:13.357Z","birthtime":"2020-03-14T08:48:30.531Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-16 11:49:39,544 INFO 15976 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\github\\Egg.js-App\\egg-demo\\app\\controller\\user.js","stat":{"dev":3659066362,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":562949954370164,"size":576,"atimeMs":1584330579542.4946,"mtimeMs":1584175948398.144,"ctimeMs":1584175948398.144,"birthtimeMs":1584173657323.6816,"atime":"2020-03-16T03:49:39.542Z","mtime":"2020-03-14T08:52:28.398Z","ctime":"2020-03-14T08:52:28.398Z","birthtime":"2020-03-14T08:14:17.324Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-16 11:49:39,746 WARN 15976 [agent:development] reload worker because E:\github\Egg.js-App\egg-demo\app\controller\user.js change
+2020-03-16 11:49:39,684 WARN 15976 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-16 11:49:41,169 ERROR 15976 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15976
+hostname: DESKTOP-L0USDMV
+
+2020-03-16 11:49:41,209 WARN 15976 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
