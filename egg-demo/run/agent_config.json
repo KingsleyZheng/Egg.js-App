@@ -154,6 +154,21 @@
       "credentials": true,
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
     },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "localhost",
+        "port": "3306",
+        "user": "root",
+        "password": "<String len: 16>",
+        "database": "react-diary"
+      }
+    },
     "env": "local",
     "name": "demo",
     "keys": "<String len: 23>",
@@ -175,6 +190,7 @@
       "dependencies": {
         "egg": "^2.15.1",
         "egg-cors": "^2.2.3",
+        "egg-mysql": "^3.0.0",
         "egg-scripts": "^2.11.0"
       },
       "devDependencies": {
@@ -470,6 +486,17 @@
       "from": "E:\\github\\Egg.js-App\\egg-demo\\config\\plugin.js",
       "path": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-cors",
       "version": "2.2.3"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\github\\Egg.js-App\\egg-demo\\config\\plugin.js",
+      "path": "E:\\github\\Egg.js-App\\egg-demo\\node_modules\\egg-mysql",
+      "version": "3.0.0"
     }
   }
 }

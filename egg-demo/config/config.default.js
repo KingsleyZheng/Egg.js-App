@@ -18,6 +18,7 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
+  // 允许跨域
   config.security = {
     csrf: {
       enable: false,
@@ -31,6 +32,18 @@ module.exports = appInfo => {
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
   };
 
+  // 数据库连接
+  exports.mysql = {
+    client: {
+      host: 'localhost',
+      port: '3306',
+      user: 'root',
+      password: 'KingsleyCheang77',
+      database: 'react-diary',
+    },
+    app: true,
+    agent: false,
+  };
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
